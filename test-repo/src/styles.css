@@ -1,0 +1,36 @@
+.button {
+  padding: 10px 20px;
+  background-color: blue;
+}
+
+.button-primary {
+  background-color: green;
+}
+
+.button-secondary {
+  background-color: gray;
+}
+
+.unused-class {
+  color: red;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.sidebar {
+  width: 250px;
+  float: left;
+}
+
+.unused-sidebar-item {
+  padding: 5px;
+}
+

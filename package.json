@@ -1,0 +1,37 @@
+{
+  "name": "css-analyzer",
+  "version": "1.0.0",
+  "description": "CLI tool to detect unused CSS classes in repositories",
+  "main": "dist/index.js",
+  "bin": {
+    "css-analyzer": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["css", "analyzer", "unused", "classes"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/parser": "^7.23.6",
+    "@babel/traverse": "^7.23.6",
+    "@babel/types": "^7.23.6",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "exceljs": "^4.4.0",
+    "glob": "^10.3.10",
+    "ignore": "^5.3.0",
+    "openai": "^4.24.1",
+    "postcss": "^8.4.32",
+    "postcss-scss": "^4.0.9"
+  },
+  "devDependencies": {
+    "@types/babel__traverse": "^7.20.5",
+    "@types/node": "^20.10.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
+
